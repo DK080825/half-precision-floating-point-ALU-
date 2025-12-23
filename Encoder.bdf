@@ -4,27 +4,26 @@ editor if you plan to continue editing the block that represents it in
 the Block Editor! File corruption is VERY likely to occur.
 */
 /*
-Copyright (C) 2020  Intel Corporation. All rights reserved.
-Your use of Intel Corporation's design tools, logic functions 
-and other software and tools, and any partner logic 
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
 functions, and any output files from any of the foregoing 
 (including device programming or simulation files), and any 
 associated documentation or information are expressly subject 
-to the terms and conditions of the Intel Program License 
-Subscription Agreement, the Intel Quartus Prime License Agreement,
-the Intel FPGA IP License Agreement, or other applicable license
-agreement, including, without limitation, that your use is for
-the sole purpose of programming logic devices manufactured by
-Intel and sold by Intel or its authorized distributors.  Please
-refer to the applicable agreement for further details, at
-https://fpgasoftware.intel.com/eula.
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
 */
 (header "graphic" (version "1.4"))
 (pin
 	(input)
-	(rect 336 264 504 280)
+	(rect 280 120 448 136)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "A[3..0]" (rect 5 0 38 12)(font "Arial" ))
+	(text "A[3..0]" (rect 5 0 39 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -38,7 +37,7 @@ https://fpgasoftware.intel.com/eula.
 )
 (pin
 	(output)
-	(rect 880 272 1056 288)
+	(rect 824 128 1000 144)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
 	(text "Valid" (rect 90 0 113 12)(font "Arial" ))
 	(pt 0 8)
@@ -54,7 +53,7 @@ https://fpgasoftware.intel.com/eula.
 )
 (pin
 	(output)
-	(rect 904 352 1080 368)
+	(rect 848 208 1024 224)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
 	(text "Y[2..0]" (rect 90 0 124 12)(font "Arial" ))
 	(pt 0 8)
@@ -69,7 +68,7 @@ https://fpgasoftware.intel.com/eula.
 	)
 )
 (symbol
-	(rect 696 240 760 320)
+	(rect 640 96 704 176)
 	(text "OR4" (rect 1 0 19 10)(font "Arial" (font_size 6)))
 	(text "inst" (rect 3 69 20 81)(font "Arial" ))
 	(port
@@ -118,7 +117,7 @@ https://fpgasoftware.intel.com/eula.
 	)
 )
 (symbol
-	(rect 704 504 768 584)
+	(rect 648 360 712 440)
 	(text "AND4" (rect 1 0 25 10)(font "Arial" (font_size 6)))
 	(text "inst6" (rect 3 69 26 81)(font "Arial" ))
 	(port
@@ -165,7 +164,7 @@ https://fpgasoftware.intel.com/eula.
 	)
 )
 (symbol
-	(rect 392 312 440 344)
+	(rect 336 168 384 200)
 	(text "NOT" (rect 1 0 21 10)(font "Arial" (font_size 6)))
 	(text "inst7" (rect 3 21 26 33)(font "Arial" ))
 	(port
@@ -190,7 +189,7 @@ https://fpgasoftware.intel.com/eula.
 	)
 )
 (symbol
-	(rect 392 344 440 376)
+	(rect 336 200 384 232)
 	(text "NOT" (rect 1 0 21 10)(font "Arial" (font_size 6)))
 	(text "inst8" (rect 3 21 26 33)(font "Arial" ))
 	(port
@@ -215,7 +214,7 @@ https://fpgasoftware.intel.com/eula.
 	)
 )
 (symbol
-	(rect 392 376 440 408)
+	(rect 336 232 384 264)
 	(text "NOT" (rect 1 0 21 10)(font "Arial" (font_size 6)))
 	(text "inst9" (rect 3 21 26 33)(font "Arial" ))
 	(port
@@ -240,7 +239,7 @@ https://fpgasoftware.intel.com/eula.
 	)
 )
 (symbol
-	(rect 392 408 440 440)
+	(rect 336 264 384 296)
 	(text "NOT" (rect 1 0 21 10)(font "Arial" (font_size 6)))
 	(text "inst10" (rect 3 21 32 33)(font "Arial" ))
 	(port
@@ -265,7 +264,7 @@ https://fpgasoftware.intel.com/eula.
 	)
 )
 (symbol
-	(rect 704 392 768 440)
+	(rect 648 248 712 296)
 	(text "AND2" (rect 1 0 25 10)(font "Arial" (font_size 6)))
 	(text "inst11" (rect 3 37 32 49)(font "Arial" ))
 	(port
@@ -297,7 +296,7 @@ https://fpgasoftware.intel.com/eula.
 	)
 )
 (symbol
-	(rect 608 384 672 432)
+	(rect 552 240 616 288)
 	(text "OR2" (rect 1 0 19 10)(font "Arial" (font_size 6)))
 	(text "inst12" (rect 3 37 32 49)(font "Arial" ))
 	(port
@@ -330,7 +329,7 @@ https://fpgasoftware.intel.com/eula.
 	)
 )
 (symbol
-	(rect 640 600 704 648)
+	(rect 584 456 648 504)
 	(text "AND3" (rect 1 0 25 10)(font "Arial" (font_size 6)))
 	(text "inst13" (rect 3 37 32 49)(font "Arial" ))
 	(port
@@ -369,7 +368,7 @@ https://fpgasoftware.intel.com/eula.
 	)
 )
 (symbol
-	(rect 736 608 800 656)
+	(rect 680 464 744 512)
 	(text "OR2" (rect 1 0 19 10)(font "Arial" (font_size 6)))
 	(text "inst14" (rect 3 37 32 49)(font "Arial" ))
 	(port
@@ -402,156 +401,156 @@ https://fpgasoftware.intel.com/eula.
 	)
 )
 (connector
-	(text "A[3]" (rect 650 240 670 252)(font "Arial" ))
-	(pt 696 256)
-	(pt 640 256)
+	(text "A[3]" (rect 594 96 614 108)(font "Arial" ))
+	(pt 640 112)
+	(pt 584 112)
 )
 (connector
-	(text "A[2]" (rect 650 256 670 268)(font "Arial" ))
-	(pt 696 272)
-	(pt 640 272)
+	(text "A[2]" (rect 594 112 614 124)(font "Arial" ))
+	(pt 640 128)
+	(pt 584 128)
 )
 (connector
-	(text "A[1]" (rect 650 272 670 284)(font "Arial" ))
-	(pt 696 288)
-	(pt 640 288)
+	(text "A[1]" (rect 594 128 614 140)(font "Arial" ))
+	(pt 640 144)
+	(pt 584 144)
 )
 (connector
-	(text "A[0]" (rect 650 288 670 300)(font "Arial" ))
-	(pt 696 304)
-	(pt 640 304)
+	(text "A[0]" (rect 594 144 614 156)(font "Arial" ))
+	(pt 640 160)
+	(pt 584 160)
 )
 (connector
-	(text "A[3..0]" (rect 514 256 547 268)(font "Arial" ))
-	(pt 504 272)
-	(pt 600 272)
+	(text "A[3..0]" (rect 458 112 491 124)(font "Arial" ))
+	(pt 448 128)
+	(pt 544 128)
 	(bus)
 )
 (connector
-	(pt 760 280)
-	(pt 880 280)
+	(pt 704 136)
+	(pt 824 136)
 )
 (connector
-	(text "A[3]" (rect 330 312 350 324)(font "Arial" ))
-	(pt 392 328)
-	(pt 320 328)
+	(text "A[3]" (rect 274 168 294 180)(font "Arial" ))
+	(pt 336 184)
+	(pt 264 184)
 )
 (connector
-	(text "A[2]" (rect 330 344 350 356)(font "Arial" ))
-	(pt 320 360)
-	(pt 392 360)
+	(text "A[2]" (rect 274 200 294 212)(font "Arial" ))
+	(pt 264 216)
+	(pt 336 216)
 )
 (connector
-	(text "A[1]" (rect 330 376 350 388)(font "Arial" ))
-	(pt 320 392)
-	(pt 392 392)
+	(text "A[1]" (rect 274 232 294 244)(font "Arial" ))
+	(pt 264 248)
+	(pt 336 248)
 )
 (connector
-	(text "A[0]" (rect 330 408 350 420)(font "Arial" ))
-	(pt 392 424)
-	(pt 320 424)
+	(text "A[0]" (rect 274 264 294 276)(font "Arial" ))
+	(pt 336 280)
+	(pt 264 280)
 )
 (connector
-	(text "nA3" (rect 450 312 468 324)(font "Arial" ))
-	(pt 440 328)
-	(pt 536 328)
+	(text "nA3" (rect 394 168 412 180)(font "Arial" ))
+	(pt 384 184)
+	(pt 480 184)
 )
 (connector
-	(text "nA2" (rect 450 344 468 356)(font "Arial" ))
-	(pt 440 360)
-	(pt 536 360)
+	(text "nA2" (rect 394 200 412 212)(font "Arial" ))
+	(pt 384 216)
+	(pt 480 216)
 )
 (connector
-	(text "nA1" (rect 450 376 468 388)(font "Arial" ))
-	(pt 440 392)
-	(pt 536 392)
+	(text "nA1" (rect 394 232 412 244)(font "Arial" ))
+	(pt 384 248)
+	(pt 480 248)
 )
 (connector
-	(text "nA0" (rect 450 408 468 420)(font "Arial" ))
-	(pt 440 424)
-	(pt 536 424)
+	(text "nA0" (rect 394 264 412 276)(font "Arial" ))
+	(pt 384 280)
+	(pt 480 280)
 )
 (connector
-	(text "nA3" (rect 642 504 660 516)(font "Arial" ))
-	(pt 704 520)
-	(pt 632 520)
+	(text "nA3" (rect 586 360 604 372)(font "Arial" ))
+	(pt 648 376)
+	(pt 576 376)
 )
 (connector
-	(text "nA2" (rect 642 520 660 532)(font "Arial" ))
-	(pt 704 536)
-	(pt 632 536)
+	(text "nA2" (rect 586 376 604 388)(font "Arial" ))
+	(pt 648 392)
+	(pt 576 392)
 )
 (connector
-	(text "nA1" (rect 642 536 660 548)(font "Arial" ))
-	(pt 704 552)
-	(pt 632 552)
+	(text "nA1" (rect 586 392 604 404)(font "Arial" ))
+	(pt 648 408)
+	(pt 576 408)
 )
 (connector
-	(text "A[0]" (rect 642 552 662 564)(font "Arial" ))
-	(pt 704 568)
-	(pt 632 568)
+	(text "A[0]" (rect 586 408 606 420)(font "Arial" ))
+	(pt 648 424)
+	(pt 576 424)
 )
 (connector
-	(text "Y[2]" (rect 778 528 799 540)(font "Arial" ))
-	(pt 768 544)
-	(pt 824 544)
+	(text "Y[2]" (rect 722 384 743 396)(font "Arial" ))
+	(pt 712 400)
+	(pt 768 400)
 )
 (connector
-	(text "nA3" (rect 674 408 692 420)(font "Arial" ))
-	(pt 704 424)
-	(pt 664 424)
+	(text "nA3" (rect 618 264 636 276)(font "Arial" ))
+	(pt 648 280)
+	(pt 608 280)
 )
 (connector
-	(pt 704 408)
-	(pt 672 408)
+	(pt 648 264)
+	(pt 616 264)
 )
 (connector
-	(text "A[1]" (rect 578 384 598 396)(font "Arial" ))
-	(pt 608 400)
-	(pt 568 400)
+	(text "A[1]" (rect 522 240 542 252)(font "Arial" ))
+	(pt 552 256)
+	(pt 512 256)
 )
 (connector
-	(text "A[2]" (rect 578 400 598 412)(font "Arial" ))
-	(pt 608 416)
-	(pt 568 416)
+	(text "A[2]" (rect 522 256 542 268)(font "Arial" ))
+	(pt 552 272)
+	(pt 512 272)
 )
 (connector
-	(text "Y[1]" (rect 778 400 799 412)(font "Arial" ))
-	(pt 768 416)
-	(pt 824 416)
+	(text "Y[1]" (rect 722 256 743 268)(font "Arial" ))
+	(pt 712 272)
+	(pt 768 272)
 )
 (connector
-	(text "A[1]" (rect 578 600 598 612)(font "Arial" ))
-	(pt 640 616)
-	(pt 568 616)
+	(text "A[1]" (rect 522 456 542 468)(font "Arial" ))
+	(pt 584 472)
+	(pt 512 472)
 )
 (connector
-	(text "nA2" (rect 578 608 596 620)(font "Arial" ))
-	(pt 640 624)
-	(pt 568 624)
+	(text "nA2" (rect 522 464 540 476)(font "Arial" ))
+	(pt 584 480)
+	(pt 512 480)
 )
 (connector
-	(text "nA3" (rect 578 616 596 628)(font "Arial" ))
-	(pt 640 632)
-	(pt 568 632)
+	(text "nA3" (rect 522 472 540 484)(font "Arial" ))
+	(pt 584 488)
+	(pt 512 488)
 )
 (connector
-	(pt 736 624)
-	(pt 704 624)
+	(pt 680 480)
+	(pt 648 480)
 )
 (connector
-	(text "A[3]" (rect 722 624 742 636)(font "Arial" ))
-	(pt 736 640)
-	(pt 712 640)
+	(text "A[3]" (rect 666 480 686 492)(font "Arial" ))
+	(pt 680 496)
+	(pt 656 496)
 )
 (connector
-	(text "Y[0]" (rect 810 616 831 628)(font "Arial" ))
-	(pt 800 632)
-	(pt 872 632)
+	(text "Y[0]" (rect 754 472 775 484)(font "Arial" ))
+	(pt 744 488)
+	(pt 816 488)
 )
 (connector
-	(text "Y[2..0]" (rect 850 344 884 356)(font "Arial" ))
-	(pt 904 360)
-	(pt 840 360)
+	(text "Y[2..0]" (rect 794 200 828 212)(font "Arial" ))
+	(pt 848 216)
+	(pt 784 216)
 	(bus)
 )
